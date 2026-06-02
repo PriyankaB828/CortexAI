@@ -1,4 +1,4 @@
-# 🤖 GenAI Chatbot
+# GenAI Chatbot
 
 A full-stack conversational AI chatbot built with **Google Gemini API**, **FastAPI** (Python), and **React**.  
 Developed as a GenAI Developer Intern project demonstration.
