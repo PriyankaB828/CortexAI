@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://cortexai-1.onrender.com";
 
 function formatTime() {
   return new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
