@@ -54,7 +54,7 @@ async def chat(request: ChatRequest):
                 headers={
                     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
                     "Content-Type": "application/json",
-                    "HTTP-Referer": "http://localhost:5173",
+                    "HTTP-Referer": "https://cortex-ai.vercel.app",
                     "X-Title": "GenAI Chatbot"
                 },
                 json={
