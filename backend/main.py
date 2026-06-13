@@ -59,7 +59,8 @@ async def chat(request: ChatRequest):
                 },
                 json={
                     "model": "google/gemini-2.5-flash",
-                    "messages": messages
+                    "messages": messages,
+                    "max_tokens": 1000
                 },
                 timeout=30.0
             )
