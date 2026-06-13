@@ -38,7 +38,7 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "model": "google/gemini-2.0-flash-001"}
+    return {"status": "ok", "model": "google/gemini-2.5-flash"}
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
@@ -58,7 +58,7 @@ async def chat(request: ChatRequest):
                     "X-Title": "GenAI Chatbot"
                 },
                 json={
-                    "model": "google/gemini-2.0-flash-001",
+                    "model": "google/gemini-2.5-flash",
                     "messages": messages
                 },
                 timeout=30.0
